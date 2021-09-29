@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cyri-le.github.io/sumnews/static/css/main.897ce18a.chunk.css",
+    "main.js": "/cyri-le.github.io/sumnews/static/js/main.1969eae9.chunk.js",
+    "main.js.map": "/cyri-le.github.io/sumnews/static/js/main.1969eae9.chunk.js.map",
+    "runtime-main.js": "/cyri-le.github.io/sumnews/static/js/runtime-main.5e7eb314.js",
+    "runtime-main.js.map": "/cyri-le.github.io/sumnews/static/js/runtime-main.5e7eb314.js.map",
+    "static/js/2.2242092a.chunk.js": "/cyri-le.github.io/sumnews/static/js/2.2242092a.chunk.js",
+    "static/js/2.2242092a.chunk.js.map": "/cyri-le.github.io/sumnews/static/js/2.2242092a.chunk.js.map",
+    "static/js/3.bfbc02ad.chunk.js": "/cyri-le.github.io/sumnews/static/js/3.bfbc02ad.chunk.js",
+    "static/js/3.bfbc02ad.chunk.js.map": "/cyri-le.github.io/sumnews/static/js/3.bfbc02ad.chunk.js.map",
+    "index.html": "/cyri-le.github.io/sumnews/index.html",
+    "static/css/main.897ce18a.chunk.css.map": "/cyri-le.github.io/sumnews/static/css/main.897ce18a.chunk.css.map",
+    "static/js/2.2242092a.chunk.js.LICENSE.txt": "/cyri-le.github.io/sumnews/static/js/2.2242092a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5e7eb314.js",
+    "static/js/2.2242092a.chunk.js",
+    "static/css/main.897ce18a.chunk.css",
+    "static/js/main.1969eae9.chunk.js"
+  ]
+}
