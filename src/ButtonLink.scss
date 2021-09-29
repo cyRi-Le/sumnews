@@ -1,0 +1,39 @@
+.button-link-container{
+    h6 {
+        color: white;
+    }
+    >a.button-link{
+        display: inline-block;
+        cursor: pointer;
+        padding: 4px 3px 6px 8px;
+        color: darken(#666, 20%);
+        background-color: lighten(#ddd, 20%);
+        text-decoration: none;
+        font-size: 0.75rem;
+        min-width: 55px;
+        box-shadow: inset 0 0 0.25rem #ddd;
+        font-weight: bolder;
+        &:hover {
+            box-shadow: inset 0 0 0.5rem darken(#ddd, 5%);
+        }
+        &::before, &:before, &::after,&:after {
+        font-family: "Font Awesome 5 Free" ;
+        line-height: 100%;
+        height: 100%;
+        color: #6a0e0e;
+        font-size: 0.75rem;
+        }
+        &::before, &:before {
+        padding-right: 7px;
+        }
+        &::after, &:after {
+        padding-left: 7px;
+        margin-right: 5px;
+        }
+    }
+}
+a.button-link[data-type=download] {
+     &::before, &:before {
+        content: "\f019";
+    }
+}

@@ -1,0 +1,54 @@
+.document-viewer-container {
+  text-align: left;
+  position: relative;
+  border: 3px dashed deepskyblue;
+}
+
+.article-section {
+  width: 70%;
+  float: left;
+  border: 3px dashed brown;
+}
+
+.metrics-section {
+  float: right;
+  width: 30% !important;
+  border: 1px solid pink;
+}
+
+.summaries-section {
+  width: 30% !important;
+  border: 3px dashed purple;
+}
+
+.content-section {
+  display: inline-block;
+}
+
+.document-viewer-overlay {
+  height: 100%;
+  width: 100%;
+  z-index: -10000;
+  position: absolute;
+  border: 3px dashed red;
+}
+
+.loader-container {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid #f6f6f6;
+  border-bottom-color: #F2CA80;
+  position: absolute;
+  left: calc(50% - 20px);
+  top: calc(50% - 20px);
+  animation: spinner 0.8s linear infinite;
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=DocumentViewer.css.map */

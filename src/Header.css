@@ -1,0 +1,40 @@
+.header-container {
+  display: inline-block;
+  height: 20%;
+  width: 100%;
+  vertical-align: top;
+}
+
+.header-container > #logo-container {
+  height: 30%;
+  background-color: #1f4c33;
+}
+
+.header-container > #mid-top-wrapper {
+  height: 70%;
+  border-bottom: 1px solid #307556;
+}
+.header-container > #mid-top-wrapper h2 {
+  color: #1f4c33;
+}
+.header-container > #mid-top-wrapper h3 {
+  color: #1f4c33;
+}
+
+.menu-nav {
+  margin: 0;
+  padding: 0;
+}
+.menu-nav li {
+  display: inline;
+  float: right;
+}
+.menu-nav li a {
+  color: white;
+  font-size: 0.95rem;
+}
+.menu-nav li a :active {
+  color: #6a0e0e;
+}
+
+/*# sourceMappingURL=Header.css.map */

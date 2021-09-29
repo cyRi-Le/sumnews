@@ -1,0 +1,13 @@
+.footer-container {
+  display: flex;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #53b88b;
+  height: 5%;
+  vertical-align: bottom;
+  h6 {
+    color: white;
+    }
+}

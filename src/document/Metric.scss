@@ -1,0 +1,32 @@
+.metric-container {
+& .metric-bar-container {
+  height: 5px;
+  background-color: white!important;
+  position: relative;
+  width: 80%;
+  border-radius: 4px;
+  margin-top: 2px;
+  border: 1px solid transparent;
+  &:first-of-type{
+    border-color: rgba(0,0,0,.05);
+  }
+
+  & .metric-bar {
+    height: 100%!important;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: purple;
+    transition: width ease-in-out .100s;
+  }
+}
+}
+.metric-value {
+  font-weight: bolder;
+  font-size: 0.85rem;
+  color: #6a0e0e;
+}
+.metric-name {
+  font-size: 0.85rem;
+}

@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+  position: relative;
+  height: 100%;
+}
+
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.title-wrapper {
+    h4 {
+        color: #0c4b33;
+    }
+}
+$primary-color : #3490ff;
+$title-font-family : "Helvetica Neue";
+$text-font-family-standard: "Helvetica Neue";
+$text-font-family-semi-title: "Helvetica Neue";
+$text-font-size-level1: 0.75rem;
+$text-font-size-level2: 0.85rem;
+$button-text-font-family: "Helvetica Neue";
+$button-text-font-size: 0.75rem;
+
+// I use SASS ok, don't judge.
+// Plus, it's way better.
+// Project Variables
+$project-font: 'Fira Sans';
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans);
